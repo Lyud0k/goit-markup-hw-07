@@ -1,0 +1,37 @@
+.duty {
+    padding-top:var(--edge-padd);
+}
+
+.duty-icon__list{
+    margin-bottom: 30px;
+}
+
+.duty-icon +.duty-icon{
+    margin-left: 30px;
+}
+
+.duty-icon__cl {
+    width: 270px;
+    height: 120px;
+    background-color: #F5F4FA;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.duty-list__item {
+    width: 270px;
+    &:not(:last-child){
+    margin-right: var(--third-mar);
+}
+ }
+
+.duty-must {
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+margin-bottom: 10px;
+ }
